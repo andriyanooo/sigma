@@ -1,0 +1,275 @@
+/* ==== NAVBAR CUSTOM ==== */
+.navbar {
+  background: #ffffff !important; 
+  border-bottom: 2px solid #20b28e;
+}
+
+.navbar-brand span {
+  font-size: 22px;
+  font-weight: 700;
+  color: #20b28e;
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #20b28e !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #20b28e !important;
+  font-weight: 700;
+}
+
+.navbar-nav .nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 3px;
+  background: #20b28e;
+  border-radius: 2px;
+}
+
+/* ==== HERO / CAROUSEL CUSTOM ==== */
+.hero-section {
+  background: linear-gradient(135deg, #e8f9f4, #ffffff);
+  padding: 60px 0 40px 0;
+}
+
+.carousel-inner img {
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.5s ease;
+}
+
+.carousel-inner img:hover {
+  transform: scale(1.03);
+}
+
+.carousel-caption {
+  background: rgba(32, 178, 142, 0.8);
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.carousel-caption h5 {
+  font-weight: 700;
+  color: #fff;
+}
+
+.carousel-caption p {
+  font-size: 14px;
+  color: #f1f1f1;
+}
+
+/* ==== FITUR UTAMA ==== */
+.feature-card {
+  border-radius: 18px;
+  background: #ffffff;
+  transition: all 0.4s ease;
+  border: 1px solid #e9ecef;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.feature-icon {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-size: 2.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.feature-card h5 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #198754;
+}
+
+.feature-card p {
+  font-size: 15px;
+  color: #6c757d;
+}
+
+/* ==== FORM INPUT DATA ==== */
+.custom-form {
+  border-radius: 20px;
+  border: 1px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+
+.custom-form:hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form h3 {
+  font-weight: 700;
+  color: #198754;
+}
+
+.custom-form .form-label {
+  font-weight: 600;
+  color: #495057;
+}
+
+.custom-form .form-control {
+  border-radius: 12px;
+  padding: 12px;
+  border: 1.5px solid #ced4da;
+  transition: all 0.3s ease;
+}
+
+.custom-form .form-control:focus {
+  border-color: #20c997;
+  box-shadow: 0 0 8px rgba(32, 201, 151, 0.25);
+}
+
+/* ==== HASIL ANALISIS ==== */
+.result-box {
+  border-radius: 18px;
+  border: 2px solid #dee2e6;
+  padding: 25px;
+  margin-top: 25px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.result-box h4 {
+  font-weight: 700;
+  color: #198754;
+}
+
+.result-box p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.progress {
+  height: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* ==== EDUKASI CARD ==== */
+.edukasi-card {
+  border-radius: 18px;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #ffffff, #f8f9fa);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.edukasi-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+  background: linear-gradient(135deg, #e9f7ef, #ffffff);
+}
+
+.edukasi-card .emoji {
+  font-size: 50px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.edukasi-card:hover .emoji {
+  transform: rotate(10deg) scale(1.2);
+}
+
+.edukasi-card h5 {
+  font-weight: 700;
+  color: #198754;
+}
+
+.edukasi-card p {
+  font-size: 15px;
+  color: #555;
+}
+
+/* ==== FAQ ==== */
+.accordion-button {
+  font-weight: 600;
+  color: #198754;
+  background: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background: #198754;
+  box-shadow: none;
+}
+
+.accordion-button:hover {
+  background: #e9f7ef;
+  color: #145c32;
+}
+
+.accordion-body {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* ==== FOOTER ==== */
+.site-footer {
+  background: linear-gradient(135deg, #198754, #20b28e);
+  color: #fff;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.site-footer a {
+  color: #ffe082;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.site-footer a:hover {
+  color: #fff176;
+}
+
+/* CSS Tambahan di section hero */
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.feature-icon:hover {
+  transform: rotate(10deg) scale(1.1);
+}
